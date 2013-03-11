@@ -94,7 +94,7 @@
       Text="Using 'VersionNumber' = '$(VersionNumber)'." />
     <MSBuild
       Projects="AcmeCorp.AzureBuildSample.Build.proj"
-      Properties="BranchName=$(BranchName);BuildLabel=$(BuildLabel);BuildLabelNumber=$(BuildLabelNumber);DropLocationForBuild=$(DropLocationForBuild);IsAllConfigurationsBuild=$(IsAllConfigurationsBuild);IsCommandLineBuild=$(IsCommandLineBuild);IsDesktopBuild=$(IsDesktopBuild);IsDocumentationBuild=$(IsDocumentationBuild);IsInitialiseEnvironmentBuild=$(IsInitialiseEnvironmentBuild);IsPackagedBuild=$(IsPackagedBuild);VersionNumber=$(VersionNumber);MSTestSettingsFilePath=..\BuildServer.testsettings" />
+      Properties="MaxBuildTimeInMinutes=20;BranchName=$(BranchName);BuildLabel=$(BuildLabel);BuildLabelNumber=$(BuildLabelNumber);DropLocationForBuild=$(DropLocationForBuild);IsAllConfigurationsBuild=$(IsAllConfigurationsBuild);IsCommandLineBuild=$(IsCommandLineBuild);IsDesktopBuild=$(IsDesktopBuild);IsDocumentationBuild=$(IsDocumentationBuild);IsInitialiseEnvironmentBuild=$(IsInitialiseEnvironmentBuild);IsPackagedBuild=$(IsPackagedBuild);VersionNumber=$(VersionNumber);MSTestSettingsFilePath=..\BuildServer.testsettings" />
   </Target>
 
 </Project>
