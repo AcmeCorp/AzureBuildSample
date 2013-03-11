@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="AcmeCorp.AzureBuildSample.Azure" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="1" osVersion="*" schemaVersion="2012-05.1.7">
+  <Role name="AcmeCorp.AzureBuildSample.Web.UI">
+    <Instances count="1" />
+    <ConfigurationSettings>
+    </ConfigurationSettings>
+  </Role>
+  <Role name="AcmeCorp.AzureBuildSample.Worker">
+    <Instances count="1" />
+    <ConfigurationSettings>
+    </ConfigurationSettings>
+  </Role>
+</ServiceConfiguration>

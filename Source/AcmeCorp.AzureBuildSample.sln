@@ -1,0 +1,90 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "AcmeCorp.AzureBuildSample.Azure", "AcmeCorp.AzureBuildSample.Azure\AcmeCorp.AzureBuildSample.Azure.ccproj", "{69DA597C-2971-422F-BBF2-6F88606255E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcmeCorp.AzureBuildSample.Web.UI", "AcmeCorp.AzureBuildSample.Web.UI\AcmeCorp.AzureBuildSample.Web.UI.csproj", "{668DB774-1E71-478E-9D88-C80C1D16C381}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcmeCorp.AzureBuildSample.Web.UI.Tests", "AcmeCorp.AzureBuildSample.Web.UI.Tests\AcmeCorp.AzureBuildSample.Web.UI.Tests.csproj", "{97C0FA82-8B24-4E86-BE2B-A6D7E611AF87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcmeCorp.AzureBuildSample.Worker", "AcmeCorp.AzureBuildSample.Worker\AcmeCorp.AzureBuildSample.Worker.csproj", "{1F673C7A-885B-428A-A2C6-BFC3C83AE6AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcmeCorp.AzureBuildSample.Worker.Tests", "AcmeCorp.AzureBuildSample.Worker.Tests\AcmeCorp.AzureBuildSample.Worker.Tests.csproj", "{27267454-257B-4DD8-81BF-80D7FDD35823}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9D6A7727-234F-451F-9679-D369AB7254F8}"
+	ProjectSection(SolutionItems) = preProject
+		AcmeCorp.AzureBuildSample.ruleset = AcmeCorp.AzureBuildSample.ruleset
+		AcmeCorp.AzureBuildSample.StrongNameKeyPair.snk = AcmeCorp.AzureBuildSample.StrongNameKeyPair.snk
+		AcmeCorp.AzureBuildSample.StrongNamePublicKey.snk = AcmeCorp.AzureBuildSample.StrongNamePublicKey.snk
+		AcmeCorp.AzureBuildSample.vsmdi = AcmeCorp.AzureBuildSample.vsmdi
+		BuildServer.testsettings = BuildServer.testsettings
+		FxCopCustomDictionary.xml = FxCopCustomDictionary.xml
+		Local.testsettings = Local.testsettings
+		Settings.StyleCop = Settings.StyleCop
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{4684646D-47B5-4807-8119-E68890346799}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{46F25F63-5CFA-41DA-9139-EA787EEA1D3B}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CommandFiles", "CommandFiles", "{B693FF47-FDC8-4682-B6E5-4B267AF7E827}"
+	ProjectSection(SolutionItems) = preProject
+		CommandFiles\AcmeCorp.AzureBuildSample.Build.cmd = CommandFiles\AcmeCorp.AzureBuildSample.Build.cmd
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{2D16CBB7-D801-4777-B31B-E783B4F257EA}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts\AcmeCorp.AzureBuildSample.Build.proj = Scripts\AcmeCorp.AzureBuildSample.Build.proj
+		Scripts\AcmeCorp.AzureBuildSample.Build.Project.Assembly.targets = Scripts\AcmeCorp.AzureBuildSample.Build.Project.Assembly.targets
+		Scripts\AcmeCorp.AzureBuildSample.Build.Project.CSharp.targets = Scripts\AcmeCorp.AzureBuildSample.Build.Project.CSharp.targets
+		Scripts\AcmeCorp.AzureBuildSample.Build.Project.targets = Scripts\AcmeCorp.AzureBuildSample.Build.Project.targets
+		Scripts\AcmeCorp.AzureBuildSample.Build.Project.VisualBasic.targets = Scripts\AcmeCorp.AzureBuildSample.Build.Project.VisualBasic.targets
+		Scripts\AcmeCorp.AzureBuildSample.CCNet.proj = Scripts\AcmeCorp.AzureBuildSample.CCNet.proj
+		Scripts\AcmeCorp.AzureBuildSample.targets = Scripts\AcmeCorp.AzureBuildSample.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = AcmeCorp.AzureBuildSample.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69DA597C-2971-422F-BBF2-6F88606255E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69DA597C-2971-422F-BBF2-6F88606255E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69DA597C-2971-422F-BBF2-6F88606255E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69DA597C-2971-422F-BBF2-6F88606255E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{668DB774-1E71-478E-9D88-C80C1D16C381}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{668DB774-1E71-478E-9D88-C80C1D16C381}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{668DB774-1E71-478E-9D88-C80C1D16C381}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{668DB774-1E71-478E-9D88-C80C1D16C381}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97C0FA82-8B24-4E86-BE2B-A6D7E611AF87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97C0FA82-8B24-4E86-BE2B-A6D7E611AF87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97C0FA82-8B24-4E86-BE2B-A6D7E611AF87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97C0FA82-8B24-4E86-BE2B-A6D7E611AF87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F673C7A-885B-428A-A2C6-BFC3C83AE6AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F673C7A-885B-428A-A2C6-BFC3C83AE6AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F673C7A-885B-428A-A2C6-BFC3C83AE6AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F673C7A-885B-428A-A2C6-BFC3C83AE6AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27267454-257B-4DD8-81BF-80D7FDD35823}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27267454-257B-4DD8-81BF-80D7FDD35823}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27267454-257B-4DD8-81BF-80D7FDD35823}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27267454-257B-4DD8-81BF-80D7FDD35823}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{27267454-257B-4DD8-81BF-80D7FDD35823} = {4684646D-47B5-4807-8119-E68890346799}
+		{97C0FA82-8B24-4E86-BE2B-A6D7E611AF87} = {4684646D-47B5-4807-8119-E68890346799}
+	EndGlobalSection
+EndGlobal

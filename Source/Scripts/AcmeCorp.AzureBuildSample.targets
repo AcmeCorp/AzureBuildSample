@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project 
+  xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+  <!-- IMPORTANT - you must import these targets for the build scripts to function. -->
+  <Import Project="..\packages\StealFocus.Build.1.2.30311.0\Scripts\StealFocus.Build.tasks" />
+
+  <PropertyGroup>
+    <CompanyName>AcmeCorp</CompanyName>
+    <Culture>en-GB</Culture>
+    <ProductName>AzureBuildSample</ProductName>
+    <StrongNamePublicKey>0024000004800000940000000602000000240000525341310004000001000100b94e563c35f38fec0d75173866f1dc63b04927a2bd4268c1ff8c971dd3fd3178761d317c77b4d45475871653f1d844dc8b859d9df1a2d40565891ded67c4a9a2072d0a5134c37cfbdeea3e92f10897dbf6c5316f34f0d15537e74379eca15b90e32b53a0a51c6947a247054e673361fab26460325aeac11b9469405252a50bd6</StrongNamePublicKey>
+    <StrongNamePublicKeyToken>1ab663c005e763a5</StrongNamePublicKeyToken>
+    <StyleCopVersion>4.7</StyleCopVersion>
+  </PropertyGroup>
+
+</Project>
